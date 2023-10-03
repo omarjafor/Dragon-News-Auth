@@ -11,6 +11,7 @@ const LeftSideNav = () => {
         .then(res => res.json())
         .then(data => setCategory(data))
     } , [])
+    
     return (
         <div className="space-y-6">
             <h1 className="text-3xl font-bold"> All Categories </h1>
