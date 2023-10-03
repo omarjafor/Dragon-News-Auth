@@ -30,7 +30,7 @@ const Navbar = () => {
                         <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2Zlc3Npb25hbCUyMGdpcmx8ZW58MHx8MHx8fDA%3D&w=1000&q=80" />
                     </div>
                 </div>
-                <a className="btn bg-[#403F3F] text-white px-7 hover:text-black">Login</a>
+                <Link to='/login' className="btn bg-[#403F3F] text-white px-7 hover:text-black">Login</Link>
             </div>
         </div>
     );
