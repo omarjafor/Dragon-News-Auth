@@ -4,7 +4,7 @@ const RightSideNav = () => {
     return (
         <div>
             <h1 className="text-3xl font-bold">
-                Right Side Navbar
+                Login With
             </h1>
         </div>
     );

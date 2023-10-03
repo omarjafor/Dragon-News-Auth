@@ -4,7 +4,7 @@ const LeftSideNav = () => {
     return (
         <div>
             <h1 className="text-3xl font-bold">
-                Left Side Navbar
+                All Caterogy
             </h1>
         </div>
     );

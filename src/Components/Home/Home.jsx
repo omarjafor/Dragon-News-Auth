@@ -10,12 +10,12 @@ const Home = () => {
             <Header></Header>
             <BreakingNews></BreakingNews>
             <Navbar></Navbar>
-            <div className="grid border grid-cols-1 md:grid-cols-4 gap-6">
+            <div className="grid border grid-cols-1 md:grid-cols-4 gap-6 mt-20">
                 <div className="border">
                     <LeftSideNav></LeftSideNav>
                 </div>
                 <div className="md:col-span-2 border">
-                    <h1 className="text-3xl font-bold">News Coming Sooon</h1>
+                    <h1 className="text-3xl font-bold">Dragon News Home</h1>
                 </div>
                 <div className="border">
                     <RightSideNav></RightSideNav>
