@@ -15,7 +15,7 @@ const Home = () => {
             <BreakingNews></BreakingNews>
             <Navbar></Navbar>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-20">
-                <div className="border">
+                <div className="">
                     <LeftSideNav></LeftSideNav>
                 </div>
                 <div className="md:col-span-2">
@@ -25,6 +25,9 @@ const Home = () => {
                         news = {nws}
                         ></NewsCard>)
                     }
+                    <div className="text-center">
+                        <button>Show All</button>
+                    </div>
                 </div>
                 <div className="">
                     <RightSideNav></RightSideNav>
