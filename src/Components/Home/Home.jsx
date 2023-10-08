@@ -26,7 +26,7 @@ const Home = () => {
                         ></NewsCard>)
                     }
                     <div className="text-center">
-                        
+                        <button>Show All</button>
                     </div>
                 </div>
                 <div className="">
