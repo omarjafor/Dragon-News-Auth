@@ -10,7 +10,7 @@ const Register = () => {
     const { createUser } = useContext(AuthContext);
 
     const handleRegister = (e) => {
-        
+        e.preventDefault();
         const form = new FormData(e.currentTarget);
         const name = form.get('name');
         const photo = form.get('photo');
